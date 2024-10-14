@@ -1,3 +1,35 @@
-h1 {
-    color: blue;
+.wrapper.home{
+    background: #161D2F;
+}
+.banner-slide{
+    text-align: center;
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+
+    h6{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    h1{
+        font-size: 62px;
+        font-weight: 700;
+        line-height: 93px;
+        max-width: 751px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p{
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 30px;
+        max-width: 690px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #FFFFFF;
+    }
 }

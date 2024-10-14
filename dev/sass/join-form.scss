@@ -1,0 +1,109 @@
+.box-join{
+    max-width: 480px;
+
+    h2{
+        color: #161D2F;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 60px;
+        text-align: center;
+    }
+    h5{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .join-titl span{
+        position: relative;
+        }
+        .join-titl span:before,
+        .join-titl span:after{
+            content: url(assets/img/kow.png);
+            display: inline-block;
+            height: 8px;
+            width: 0px;
+            position: absolute;
+            left: -100px;
+            top: -30px;
+        }
+        .join-titl span:after{
+            content: url(assets/img/kaw.png);
+            left: initial;
+            right: -145px;
+
+        }
+}
+.container.join {
+    margin-top: 100px;
+}
+.join-pod{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.join-pid{
+    width: 255px;
+    height: 96px;
+    color: #161D2F;
+    text-align: center;
+
+    h2{
+    font-weight: 800;
+    font-size: 48px;
+    }
+    h4{
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+}
+.join-pid span{
+    position: relative;
+}
+.join-pid span:after{
+    content: "";
+    display: inline-block;
+    width: 96px;
+    border: 1px solid #161D2F;
+    opacity: 40%;
+    position: absolute;
+    left: 80px;
+    top: 48px;
+   transform: rotate(-90deg);
+}
+  .advantage {
+    max-width: 540px;
+    margin: 0 auto;
+    display: flex ;
+    margin-bottom: 30px;
+  }
+  .advantage-img img {
+    width: 70px;
+    height: 70px;
+    background: #C2D8FE;
+    border-radius: 50%;
+    object-fit: scale-down;
+    padding: 10px;
+  }
+  .advantage-title {
+    color: #222222;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 30px;
+  }
+.form-row{
+    column-count: 2;
+    column-gap: 30px;
+    margin-bottom: 70px;
+}
+.advantage-mi{ 
+    padding-left: 30px;
+    
+    h3{
+    color: #161D2F;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px
+    }
+}
+

@@ -1,0 +1,63 @@
+.cata{
+    height: 406px;
+    background: #161D2F;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 149px;
+}
+.procata{
+    height: 606px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cata-cont{
+    width: 571px;
+    height: 195px;
+    
+    h2{
+        line-height: 54px;
+        margin-bottom: 30px;
+    }
+}
+.custom-input{
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 34px;
+    color: #FFFFFF;
+    width: 283px;
+    height: 57px;
+    padding: 17px;
+    margin-right: 30px;
+}
+input::placeholder{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.cata-picture{
+    position: relative;
+    height: 306px;
+    width: 286px;
+}
+.fit{
+    border-radius: 8px;
+    position: absolute;
+    
+}
+.fit.ti-1{
+    top: 21px;
+}
+.fit.ti-2{
+    right: 0px;
+}
+.fit.ti-3{
+    bottom: 0px;
+}
+.fit.ti-4{
+    bottom: 21px;
+    right: 0px;
+}

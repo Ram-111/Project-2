@@ -1,0 +1,26 @@
+.btn {
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
+    border: 1px solid #3043A9;
+    border-radius: 28px;
+    padding: 13px 27px 13px 27px;
+    font-size: 18px;
+    line-height: 27px;
+    width: 100%;
+    max-width: 157px;
+  }
+  .btn:hover {
+    background-color:  #1F629F;
+    border: 1px solid #3043A9;
+    color: #fff;
+  }
+  .btn-us {
+    background: none;
+    border: 1px solid #FFFFFF;
+  }
+  .btn-us:hover {
+    background-color: #1F629F;
+    color: #fff;
+  }
