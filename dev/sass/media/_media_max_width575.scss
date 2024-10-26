@@ -1,3 +1,26 @@
 @media screen and (max-width: 575px) {
+    header .container {
+        padding-left: 10px;
+      }
+      .btn{
+        margin-top: 10px;
+      }
+    .cata{
+      text-align: center;
+      height: 370px;
+    }
+    .cata-picture{
+      display: none;
+    }
+    .custom-input{
+      margin: 0px;
+    }
+    .procata{
+      height: 450px;
+    }
+    .title-box h2{
+      font-size: 32px;
+    }
+    
     
 }

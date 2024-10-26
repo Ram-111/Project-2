@@ -1,3 +1,94 @@
 @media screen and (max-width: 767px) {
 
+    .swiper.default-slider .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper.default-slider .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper.default-slider .swiper-pagination-custom,
+    .swiper.default-slider .swiper-pagination-fraction {
+      position: static;
+      margin-top: 32px;
+    }
+     .banner-slide {
+      text-align: center;
+      padding-bottom: 55px;
+
+      h1{
+        max-width: 290px;
+        margin-bottom: 10px;
+        font-size: 32px;
+        line-height: 40px;
+      }
+
+      .fon{
+        width: 100%;
+      }
+  }
+  .template-title {
+    text-align: center;
+
+    h2{
+      max-width: 290px;
+      font-size: 32px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.5;
+    }
+  }
+  .container_lite{
+    text-align: center;
+
+    .picture{
+      display: none;
+    }
+  }
+  .footer{
+    
+  .container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .menu-wrapper {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    text-align: start;
+  }
+  .address-column{
+     align-items: center;
+  }
+  .footer-social{
+    justify-content: center;
+  }
+  .footer-column{
+    width: 170px;
+  }
+ }
+ .cata-cont, .custom-input{
+  width: 240px;
+ }
+  .cata-cont h2{
+    margin-bottom: 10px;
+  }
+.title-box{
+  margin: 0;
+}
+.form{
+  display: none;
+}
+.advantage{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.box-join h2, .join-pid h2 {
+  font-size: 32px;
+}
+.join-pid span:after{
+  display: none;
+}
+.box-join .join-titl span:before, .box-join .join-titl span:after{
+  display: none;
+}
+
 }

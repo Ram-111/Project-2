@@ -1,4 +1,58 @@
 @media screen and (max-width: 1024px) {
+    .mobile-container {
+        flex-direction: column;
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 72px;
+        background-color: #363a4d;
+        padding-top: 33px;
+        padding-bottom: 59px;
+        transform: translate(-120%, 0);
+        transition: 0.3s all linear;
+        box-shadow: 14px 22px 40px rgba(30, 35, 66, 0.2784313725);
+      }
+      .mobile-container.show {
+        transform: translate(0, 0);
+      }
+      .mobile-container nav {
+        flex-direction: column;
+        font-size: 20px;
+        margin-bottom: 27px;
+        gap: 0;
+        margin-top: 0;
+      }
+      .mobile-container nav a {
+        padding: 14px 24px;
+      }
+      .mobile-container .btn {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 16px;
+      }
+      .hamburger {
+        margin-top: 6px;
+        margin-left: auto;}
+
+        header .container {
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-bottom: 25px;
+        }
+      
+        .cata{
+          gap: 30px;
+         }
+         .cata-cont{
+          width: 420px;
+         }
+         .cata-cont h2{
+          font-size: 20px;
+         }
+         .custom-input{
+          margin-bottom: 10px;
+         }
 }
 
 
