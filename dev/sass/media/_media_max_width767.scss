@@ -90,5 +90,15 @@
 .box-join .join-titl span:before, .box-join .join-titl span:after{
   display: none;
 }
-
+.swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+  .rates__item{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rates__title h2{
+    font-size: 30px;
+  }
 }
