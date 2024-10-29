@@ -88,42 +88,7 @@ const swiperAdvantages = new Swiper('#advantages', {
 		}
 	}
 });
-
-/*
-//pack-rates//
-new Swiper('.pack-rates', {
-	speed: 400,
-	spaceBetween: 30,
-	loop: true,
-	slidesPerView: 1,
-
-	pagination: {
-		el: '.swiper-pagination-pack-rates',
-		enabled: true,
-		clickable: true,
-	},
-
-	breakpoints: {
-		800: {
-			slidesPerView: 2,
-		},
-
-		1024: {
-			slidesPerView: 2,
-			pagination: {
-				enabled: false,
-			},
-		},
-
-		1300: {
-			slidesPerView: 3,
-			pagination: {
-				enabled: false,
-			},
-		},
-	},
-});
-*/
+//pack//
 document.addEventListener('DOMContentLoaded', () => {
     new Swiper('.pack-rates', {
         speed: 400,
@@ -138,8 +103,8 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '.swiper-button-next-pack',
+            prevEl: '.swiper-button-prev-pack',
         },
 
         breakpoints: {

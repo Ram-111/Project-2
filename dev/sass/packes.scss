@@ -31,13 +31,9 @@
 .rates__title span{
 position: relative;
 }
-.rates__row{
-    display: flex;
-    gap: 37px;
-}
+
 .rates__item{
-    max-width: 350px;
-    width: 100%;
+    width: 350px;
     height: 715px;
     background: #FFFFFF;
     box-shadow: 0px 16px 35px 0px #7090B033;
@@ -128,6 +124,8 @@ position: relative;
     position: absolute;
     bottom: 0px;
 }
+
+
 
 
 

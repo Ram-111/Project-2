@@ -1,2 +1,6 @@
 @media screen and (min-width: 576px) {
+    .swiper-button-next-pack,
+    .swiper-button-prev-pack {
+        display: none;
+    }
 }
